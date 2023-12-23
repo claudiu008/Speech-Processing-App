@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    background-color: #45badd;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: url(./images/robot.gif) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: center;
+    padding: 50px 0 550px;
+}
+
+button {
+    cursor: pointer;
+    width: 200px;
+    background-color: #ff3282;
+    border: none;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.speech-bubble {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px 0px 100px;
+}
